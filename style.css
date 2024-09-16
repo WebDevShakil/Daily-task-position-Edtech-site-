@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color:#FEFEFE;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+}
+.logo img{
+    height: 92px;
+    width: 223px;
+}
+nav ul li{
+    display: inline-block;
+}
+.nav-items{
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: 0 30px;
+    transition: all 0.3s;
+}
+
+.nav-items:hover{
+    color: #54B8FF;
+}
+.login-section-top button{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 20px;
+    font-family: inherit;
+    background-color: #54B8FF;
+    color: #ffff;
+    border: none;
+}
+#sign-btn{
+    background-color: transparent;
+    border: none ;
+    color: #000000;
+}
+.hero-section{
+    height: 720px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 100px;
+}
+.hero-section .hero-text{
+    margin-left: 100px;
+}
+.mini-heading{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 20%;
+    font-weight: 500;
+    color: #2F2B71;
+    margin-top: 150px;
+}
+.hero-image{
+    position: relative;
+    z-index: 1;
+    margin-top: 100px;
+}
+.hero-text h1{
+    font-size: 70px;
+    color: #5F596E;
+    font-weight: 700;
+    line-height: 80px;
+    margin: 60px 0;
+}
+.hero-text p{
+    font-size: 20px;
+    font-weight: 500;
+    font-weight: 32px;
+    margin: 60px 0;
+}
+.hero-btn{
+    background-image: linear-gradient(rgb(84, 184, 255,1),rgb(84, 184, 240,1));
+    padding: 20px 50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #ffff;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.hero-btn img{
+    margin-left: 10px;
+}
+.top-mid{
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    
+}
+.left-top-icon{
+    position: absolute;
+    top: -80px;
+}
+.letf-bottom-icon{
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+}
+.right-top-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.right-bottom-icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.other-1{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+.other-2{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+.other-3{
+    position: absolute;
+    top: -90px;
+    left: 300px;
+}
+.other-4{
+    position: absolute;
+    top:-30px;
+    left: 530px;
+    z-index: 2;
+}
+.other-5{
+    position: absolute;
+    top: 150px;
+    left: 590px;
+    z-index: 2;
+}
