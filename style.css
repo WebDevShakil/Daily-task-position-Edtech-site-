@@ -343,10 +343,111 @@ nav ul li{
 .feature-price{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .feature-price p{
     margin: 20px 20px;
+    color:#000000;
+    font-weight: 600;
 }
+.learning-side{
+    display: flex;
+    justify-content: center;
+    margin: 200px 170px;
+}
+.learning-side .learning-text{
+    margin-right: 100px;
+    max-width: 500px;
+}
+.learning-side .learning-text a{
+    color: #2F2B71;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+.learning-side .learning-text h3{
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 72px;
+}
+.learning-side .learning-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 40px;
+    margin-bottom:40px ;
+}
+.learning-side .learning-text button{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    background-color: #54B8FF;
+    border: none;
+    color: white;
+    
+}
+.learning-img{
+    position: relative;
+}
+.lerning-img-top{
+    position: absolute;
+    top: -72px;
+    left: -75px;
+    z-index: -1;
+}
+.lerning-img-bottom{
+    position: absolute;
+    bottom: -30px;
+    right: -36px;
+    z-index: -1;
+}
+.review-side{
+    margin: 0 170px;
+    text-align: center;
+    
+}
+.review-container{
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+.newsletter-side{
+    position: absolute;
+    top: 90px;
+    left: 100px;
+    text-align: left;
+}
+.newsletter-side p{
+    font-size: 18px;
+    color: #8785AA;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.newsletter-side h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.newsletter-side input{
+    height:  75px;
+    width: 330px;
+    outline: none;
+    padding: 5px 70px 5px 10px;
+}
+.input-div{
+    position: relative;
+
+}
+.input-div button{
+    position: absolute;
+    right: 12px;
+    top: 15px;
+    padding: 10px;
+    background-color: #12294B;
+}
+
 @media screen and (max-width:1375px) {
     .nav-container{
         padding: 20px 30px;
