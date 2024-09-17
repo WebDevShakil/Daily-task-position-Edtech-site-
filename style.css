@@ -50,6 +50,10 @@ nav ul li{
     background-color: transparent;
     border: none ;
     color: #000000;
+    cursor: pointer;
+}
+#sign-btn:active{
+    color: #1a9bf7;
 }
 .hero-section{
     height: 720px;
@@ -343,12 +347,17 @@ nav ul li{
 .feature-price{
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 .feature-price p{
     margin: 20px 20px;
     color:#000000;
     font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.feature-price img{
+    margin-right: 5px;
 }
 .learning-side{
     display: flex;
@@ -406,7 +415,13 @@ nav ul li{
 .review-side{
     margin: 0 170px;
     text-align: center;
+    position: relative;
     
+}
+.mid-bottom-left{
+    position: absolute;
+    top: -159px;
+    left: -163px
 }
 .review-container{
     position: relative;
@@ -435,6 +450,8 @@ nav ul li{
     width: 330px;
     outline: none;
     padding: 5px 70px 5px 10px;
+    font-size: 22px;
+    border: none;
 }
 .input-div{
     position: relative;
@@ -447,6 +464,51 @@ nav ul li{
     padding: 10px;
     background-color: #12294B;
 }
+.loging-form-png{
+    position: absolute;
+    bottom: -117px;
+    right: -36px;
+    z-index: -1;
+}
+.footer-side{
+    width: 100%;
+    display: flex;
+    padding: 0 130px ;
+    margin-top: 200px;
+    padding-bottom:30px ;
+    justify-content: center;
+    align-items: center;
+}
+.footer-side li{
+    list-style: none;
+    margin-bottom: 22px;
+}
+.footer-side li a{
+    font-size: 16px;
+    color: #7A7A7E;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+.footer-side h4{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.footer-image-cotainer h4{
+    margin-bottom: 18px;
+}
+.footer-text-cotainer{
+    margin: 0 100px;
+}
+.footer-image-cotainer{
+    margin: 0 90px;
+}
+button:hover{
+    background-color: #1a9bf7;
+}
+
 
 @media screen and (max-width:1375px) {
     .nav-container{
